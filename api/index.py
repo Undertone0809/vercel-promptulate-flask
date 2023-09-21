@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.get("/api/hello")
 def hello():
-    return "Hello Promptulate!"
+    llm = ChatOpenAI()
+    return {"answer": llm("hello")}
 
 
 @app.post("/api/chat")

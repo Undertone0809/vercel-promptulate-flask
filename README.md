@@ -1,5 +1,7 @@
 # Promptulate running on Vercel
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUndertone0809%2Fvercel-promptulate-flask&env=OPENAI_API_KEY&envDescription=API%20Key%20for%20OpenAI&project-name=promptulate-flask&repository-name=vercel-promptulate-flask)
+
 A minimal example on how to run Promptulate on Vercel using Flask.
 
 ## Installation
@@ -24,7 +26,7 @@ vercel dev
 
 #### 4. Example API route
 ```bash
-GET http://localhost:3000
+GET http://localhost:3000/api/hello
 ```
 
 ## Environment Variables
@@ -33,6 +35,9 @@ To run this project, you will need to add the following environment variables to
 
 `OPENAI_API_KEY`
 
+## One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUndertone0809%2Fvercel-promptulate-flask&env=OPENAI_API_KEY&envDescription=API%20Key%20for%20OpenAI&project-name=promptulate-flask&repository-name=vercel-promptulate-flask)
 
 ## Further Reading
 
