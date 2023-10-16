@@ -41,7 +41,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Further Reading
 
-Learn more about how to use LangChain by visiting the offical documentation or repo:
+Learn more about how to use LangChain by visiting the official documentation or repo:
 
 - https://github.com/Undertone0809/promptulate
 
